@@ -1,2 +1,11 @@
-body { font-family: Arial; background: #111; color: #fff; text-align: center; padding: 50px; }
-input { padding: 10px; width: 80%; margin-top: 20px; }
+body {  
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+} 
+input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}  
