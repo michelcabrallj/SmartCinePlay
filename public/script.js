@@ -1,4 +1,6 @@
 document.getElementById("search").addEventListener("input", function(e) {
-  const val = e.target.value.toLowerCase();
-  document.getElementById("result").textContent = val ? "Você pesquisou por: " + val : "Digite algo para buscar.";
+  const value = this.value.trim();
+  document.getElementById("result").innerTex = value
+    ? `Buscando por: ${value}`
+    : "Digite algo para buscar.";
 });
